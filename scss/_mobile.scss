@@ -13,7 +13,7 @@
     text-align: center;
 
     .lg-heading {
-      line-height: 1;
+      line-height: 1.2;
       margin-bottom: 1rem;
     }
 
@@ -44,9 +44,23 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      height: 150px;
-      width: 150px;
+      // height: 150px;
+      // width: 150px;
+
+      img {
+        width: 200px;
+      }
     }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-columns: 1fr;
   }
 }
 

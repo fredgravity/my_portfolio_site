@@ -86,13 +86,16 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/fred.jpg");
+      // width: 100px;
+      // height: 250px;
+      // background: url("../img/logo.png");
       background-size: cover;
       background-repeat: no-repeat;
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
+      // border-radius: 50%;
+      // border: solid 3px $secondary-color;
+      img {
+        width: 300px;
+      }
     }
   }
 
@@ -125,7 +128,7 @@
     padding: 1rem 0;
     text-decoration: none;
     font-weight: 300;
-    color: ghostwhite;
+    color: setTextColor($primary-color);
     @include easeOut;
 
     &:hover {
