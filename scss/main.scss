@@ -197,6 +197,18 @@ main {
   color: ghostwhite;
 }
 
+.check {
+  float: right;
+
+  &.on {
+    color: rgb(70, 251, 70);
+  }
+
+  &.off {
+    color: rgb(255, 30, 30);
+  }
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;

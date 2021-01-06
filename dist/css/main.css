@@ -237,6 +237,13 @@ main {
   background-color: black;
   color: ghostwhite; }
 
+.check {
+  float: right; }
+  .check.on {
+    color: #46fb46; }
+  .check.off {
+    color: #ff1e1e; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
