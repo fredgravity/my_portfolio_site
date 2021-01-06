@@ -86,16 +86,16 @@
     }
 
     .portrait {
-      // width: 100px;
-      // height: 250px;
-      // background: url("../img/logo.png");
+      width: 250px;
+      height: 250px;
+      background: url("/dist/img/fred.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      // border-radius: 50%;
-      // border: solid 3px $secondary-color;
-      img {
-        width: 300px;
-      }
+      border-radius: 50%;
+      border: solid 3px $secondary-color;
+      // img {
+      //   width: 300px;
+      // }
     }
   }
 
